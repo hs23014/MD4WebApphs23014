@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="md2hs23014.NewAssignmentPage"
+             Title="Add New Assignment">
+    <!-- Lapa uzdevumu pievienošanai -->
+    <StackLayout Padding="20">
+        <Entry Placeholder="Description" x:Name="DescriptionEntry"/>
+        <DatePicker x:Name="DeadlinePicker"/>
+        <Picker Title="Course" x:Name="CoursePicker" ItemsSource="{Binding Courses}" ItemDisplayBinding="{Binding Name}"/>
+        <Button Text="Add Assignment" Clicked="OnAddAssignmentClicked"/>
+    </StackLayout>
+    
+</ContentPage>

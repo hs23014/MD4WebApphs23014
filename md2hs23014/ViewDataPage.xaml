@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="md2hs23014.ViewDataPage"
+             Title="View Data Page">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <!-- POGAS -->
+            <Button Text="Load Data" Clicked="OnLoadDataClicked" />
+            <Button Text="Save Data" Clicked="OnSaveDataClicked" />
+            <Button Text="Reset Data" Clicked="OnResetDataClicked" />
+            
+            
+            <!-- TEACHER KOLEKCIJA -->
+            <Label Text="Teachers" FontSize="Large" />
+            <CollectionView ItemsSource="{Binding Teachers}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="5">
+                            <Label Text="{Binding Name}" />
+                            <Label Text="{Binding Surname}" />
+                            <Label Text="{Binding Gender}" />
+                            <Label Text="{Binding ContractDate, StringFormat='Contract Date: {0:dd/MM/yyyy}'}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+            <!-- STUDENT KOLEKCIJA -->
+            <Label Text="Students" FontSize="Large" Margin="0,10,0,0"/>
+            <CollectionView ItemsSource="{Binding Students}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="5">
+                            <Label Text="{Binding Name}" />
+                            <Label Text="{Binding Surname}" />
+                            <Label Text="{Binding Gender}" />
+                            <Label Text="{Binding StudentIdNumber}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+            <!-- COURSE KOLEKCIJA -->
+            <Label Text="Courses" FontSize="Large" Margin="0,10,0,0"/>
+            <CollectionView ItemsSource="{Binding Courses}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="5">
+                            <Label Text="{Binding Name}" />
+                            <!--<Label Text="{Binding Teacher.FullName, StringFormat='Teacher: {0}'}" />-->
+                            <Label Text="{Binding Teacher.Name, StringFormat='Teacher Name: {0}'}" />
+                            <Label Text="{Binding Teacher.Surname, StringFormat='Teacher Surname: {0}'}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- ASSIGNMENT KOLEKCIJA -->
+            <Label Text="Assignments" FontSize="Large" Margin="0,10,0,0"/>
+            <CollectionView ItemsSource="{Binding Assignments}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="5">
+                            <Label Text="{Binding Description}" />
+                            <Label Text="{Binding Deadline, StringFormat='Deadline: {0:dd/MM/yyyy}'}" />
+                            <Label Text="{Binding Course.Name, StringFormat='Course: {0}'}" />
+                            <!--<Label Text="{Binding Course.Teacher.FullName, StringFormat='Teacher: {0}'}" />-->
+                            <Label Text="{Binding Course.Teacher.Name, StringFormat='Teacher Name: {0}'}" />
+                            <Label Text="{Binding Course.Teacher.Surname, StringFormat='Teacher Surname: {0}'}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- SUBMISSION KOLEKCIJA -->
+            <Label Text="Submissions" FontSize="Large" Margin="0,10,0,0"/>
+            <CollectionView ItemsSource="{Binding Submissions}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="5">
+                            <!--<Label Text="{Binding Student.FullName, StringFormat='Student: {0}'}" />-->
+                            <Label Text="{Binding Student.Name, StringFormat='Student Name: {0}'}" />
+                            <Label Text="{Binding Student.Surname, StringFormat='Student Surname: {0}'}" />
+                            <Label Text="{Binding Assignment.Course.Name, StringFormat='Course: {0}'}" />
+                            <Label Text="{Binding Assignment.Description, StringFormat='Assignment: {0}'}" />
+                            <Label Text="{Binding SubmissionTime, StringFormat='Submission Time: {0:dd/MM/yyyy HH:mm}'}"/>
+                            <Label Text="{Binding Score, StringFormat='Score: {0}'}" />
+                            <!--<Label Text="{Binding Assignment.Course.Teacher.FullName, StringFormat='Teacher: {0}'}" />-->
+                            <Label Text="{Binding Assignment.Course.Teacher.Name, StringFormat='Teacher Name: {0}'}" />
+                            <Label Text="{Binding Assignment.Course.Teacher.Surname, StringFormat='Teacher Surname: {0}'}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

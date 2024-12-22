@@ -1,0 +1,14 @@
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\bin\Debug\net8.0\MD1_hs23014.exe
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\bin\Debug\net8.0\MD1_hs23014.deps.json
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\bin\Debug\net8.0\MD1_hs23014.runtimeconfig.json
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\bin\Debug\net8.0\MD1_hs23014.dll
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\bin\Debug\net8.0\MD1_hs23014.pdb
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\obj\Debug\net8.0\MD1_hs23014.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\obj\Debug\net8.0\MD1_hs23014.AssemblyInfoInputs.cache
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\obj\Debug\net8.0\MD1_hs23014.AssemblyInfo.cs
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\obj\Debug\net8.0\MD1_hs23014.csproj.CoreCompileInputs.cache
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\obj\Debug\net8.0\MD1_hs23014.dll
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\obj\Debug\net8.0\refint\MD1_hs23014.dll
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\obj\Debug\net8.0\MD1_hs23014.pdb
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\obj\Debug\net8.0\MD1_hs23014.genruntimeconfig.cache
+C:\Users\hedij\source\repos\MD1_hs23014\MD1_hs23014\obj\Debug\net8.0\ref\MD1_hs23014.dll

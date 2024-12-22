@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hedij\\source\\repos\\MD1_hs23014\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6AFEAA-885C-45F3-9F7F-2835A0B5C559}|MD4WebApphs23014\\MD4WebApphs23014.csproj|c:\\users\\hedij\\source\\repos\\md1_hs23014\\md4webapphs23014\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE6AFEAA-885C-45F3-9F7F-2835A0B5C559}|MD4WebApphs23014\\MD4WebApphs23014.csproj|solutionrelative:md4webapphs23014\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6AFEAA-885C-45F3-9F7F-2835A0B5C559}|MD4WebApphs23014\\MD4WebApphs23014.csproj|c:\\users\\hedij\\source\\repos\\md1_hs23014\\md4webapphs23014\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6AFEAA-885C-45F3-9F7F-2835A0B5C559}|MD4WebApphs23014\\MD4WebApphs23014.csproj|solutionrelative:md4webapphs23014\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6AFEAA-885C-45F3-9F7F-2835A0B5C559}|MD4WebApphs23014\\MD4WebApphs23014.csproj|c:\\users\\hedij\\source\\repos\\md1_hs23014\\md4webapphs23014\\data\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6AFEAA-885C-45F3-9F7F-2835A0B5C559}|MD4WebApphs23014\\MD4WebApphs23014.csproj|solutionrelative:md4webapphs23014\\data\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6AFEAA-885C-45F3-9F7F-2835A0B5C559}|MD4WebApphs23014\\MD4WebApphs23014.csproj|c:\\users\\hedij\\source\\repos\\md1_hs23014\\md4webapphs23014\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6AFEAA-885C-45F3-9F7F-2835A0B5C559}|MD4WebApphs23014\\MD4WebApphs23014.csproj|solutionrelative:md4webapphs23014\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SchoolDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hedij\\source\\repos\\MD1_hs23014\\MD4WebApphs23014\\Data\\SchoolDbContext.cs",
+              "RelativeDocumentMoniker": "MD4WebApphs23014\\Data\\SchoolDbContext.cs",
+              "ToolTip": "C:\\Users\\hedij\\source\\repos\\MD1_hs23014\\MD4WebApphs23014\\Data\\SchoolDbContext.cs",
+              "RelativeToolTip": "MD4WebApphs23014\\Data\\SchoolDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T23:19:28.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hedij\\source\\repos\\MD1_hs23014\\MD4WebApphs23014\\Views\\Courses\\Create.cshtml",
+              "RelativeDocumentMoniker": "MD4WebApphs23014\\Views\\Courses\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hedij\\source\\repos\\MD1_hs23014\\MD4WebApphs23014\\Views\\Courses\\Create.cshtml",
+              "RelativeToolTip": "MD4WebApphs23014\\Views\\Courses\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T23:00:57.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\hedij\\source\\repos\\MD1_hs23014\\MD4WebApphs23014\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "MD4WebApphs23014\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\hedij\\source\\repos\\MD1_hs23014\\MD4WebApphs23014\\Models\\Course.cs",
+              "RelativeToolTip": "MD4WebApphs23014\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T23:00:01.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\hedij\\source\\repos\\MD1_hs23014\\MD4WebApphs23014\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "MD4WebApphs23014\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\hedij\\source\\repos\\MD1_hs23014\\MD4WebApphs23014\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "MD4WebApphs23014\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwPIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T22:42:24.571Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

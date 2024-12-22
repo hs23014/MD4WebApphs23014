@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="md2hs23014.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Text="School System"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <!-- Poga testa datiem -->
+            <Button Text="Create Test Data" Clicked="OnCreateTestDataClicked" />
+            <!-- Pogas, kas aizved uz lapām -->           
+            <Button Text="View Data" Clicked="OnViewDataClicked" />
+            <Button Text="Add New Student" Clicked="OnAddNewStudentClicked" />
+            <Button Text="Add New Assignment" Clicked="OnAddNewAssignmentClicked" />
+            <Button Text="Add New Submission" Clicked="OnAddNewSubmissionClicked" />
+            <Button Text="Assignments" Clicked="OnAssignmentsClicked" />
+            <Button Text="Submissions" Clicked="OnSubmissionsClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

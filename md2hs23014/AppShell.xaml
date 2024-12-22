@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="md2hs23014.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:md2hs23014"
+    Shell.FlyoutBehavior="Flyout"
+    Title="md2hs23014">
+    
+    <!-- Izvēlne, kas ļauj pārslēgties starp lapām -->
+    
+    
+    <!-- HOME LAPA -->
+    <FlyoutItem Title="Home">
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    </FlyoutItem>
+    
+    <!-- VIEW DATA LAPA -->
+    <FlyoutItem Title="View Data">
+        <ShellContent
+        Title="View Data"
+        ContentTemplate="{DataTemplate local:ViewDataPage}"
+        Route="ViewDataPage" />
+    </FlyoutItem>
+
+    <!-- NEW STUDENT LAPA -->
+    <FlyoutItem Title="Add New Student">
+        <ShellContent
+            Title="Add New Student"
+            ContentTemplate="{DataTemplate local:NewStudentPage}"
+            Route="NewStudentPage" />
+    </FlyoutItem>
+
+    <!-- NEW ASSIGNMENT LAPA -->
+    <FlyoutItem Title="Add New Assignment">
+        <ShellContent
+            Title="Add New Assignment"
+            ContentTemplate="{DataTemplate local:NewAssignmentPage}"
+            Route="NewAssignmentPage" />
+    </FlyoutItem>
+
+    <!-- NEW SUBMISSION LAPA -->
+    <FlyoutItem Title="Add New Submission">
+        <ShellContent
+            Title="Add New Submission"
+            ContentTemplate="{DataTemplate local:NewSubmissionPage}"
+            Route="NewSubmissionPage" />
+    </FlyoutItem>
+
+    <!-- ASSIGNMENTS LAPA -->
+    <FlyoutItem Title="Assignments">
+        <ShellContent
+        Title="Assignments"
+        ContentTemplate="{DataTemplate local:AssignmentListPage}"
+        Route="AssignmentListPage" />
+    </FlyoutItem>
+
+    <!-- SUBMISSION LAPA -->
+    <FlyoutItem Title="Submissions">
+        <ShellContent
+    Title="Submissions"
+    ContentTemplate="{DataTemplate local:SubmissionListPage}"
+    Route="SubmissionListPage" />
+    </FlyoutItem>
+
+
+
+</Shell>

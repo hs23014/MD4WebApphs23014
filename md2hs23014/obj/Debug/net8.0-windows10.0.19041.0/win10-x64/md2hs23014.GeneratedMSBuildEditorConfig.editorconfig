@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.19041.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = md2hs23014
+build_property.ProjectDir = C:\Users\hedij\source\repos\MD1_hs23014\md2hs23014\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/AssignmentEditPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.AssignmentEditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AssignmentEditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AssignmentEditPage.xaml
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/AssignmentListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.AssignmentListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AssignmentListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AssignmentListPage.xaml
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/NewAssignmentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.NewAssignmentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = NewAssignmentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = NewAssignmentPage.xaml
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/NewStudentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.NewStudentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = NewStudentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = NewStudentPage.xaml
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/NewSubmissionPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.NewSubmissionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = NewSubmissionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = NewSubmissionPage.xaml
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/SubmissionEditPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.SubmissionEditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SubmissionEditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SubmissionEditPage.xaml
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/SubmissionListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.SubmissionListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SubmissionListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SubmissionListPage.xaml
+
+[C:/Users/hedij/source/repos/MD1_hs23014/md2hs23014/ViewDataPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = md2hs23014.ViewDataPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ViewDataPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ViewDataPage.xaml

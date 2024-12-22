@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="md2hs23014.AssignmentEditPage"
+             Title="Edit Assignment">
+    <!-- Assignment labošanas lapa -->
+    <StackLayout Padding="10">
+        <Label Text="Edit Assignment" FontSize="Large" HorizontalOptions="Center"/>
+        <Entry x:Name="DescriptionEntry" Placeholder="Description" Text="{Binding Description}"/>
+        <DatePicker x:Name="DeadlinePicker" Date="{Binding Deadline}"/>
+        <Picker Title="Course" x:Name="CoursePicker" ItemsSource="{Binding Courses}" ItemDisplayBinding="{Binding Name}"/>
+        <Button Text="Save Changes" Clicked="OnSaveChangesClicked"/>
+    </StackLayout>
+</ContentPage>

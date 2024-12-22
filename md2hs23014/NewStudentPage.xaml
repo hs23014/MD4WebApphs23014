@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="md2hs23014.NewStudentPage"
+             Title="Add New Student">
+    <!-- Lapa jauna studenta pievienošanai -->
+    <StackLayout Padding="20">
+        <Entry Placeholder="Name" x:Name="NameEntry"/>
+        <Entry Placeholder="Surname" x:Name="SurnameEntry"/>
+        <Entry Placeholder="Student ID" x:Name="StudentIdEntry"/>
+        <Picker Title="Gender" x:Name="GenderPicker">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Man</x:String>
+                    <x:String>Woman</x:String>
+                </x:Array>
+            </Picker.ItemsSource>            
+        </Picker>
+        <Button Text="Add Student" Clicked="OnAddStudentClicked"/>
+    </StackLayout>
+    
+</ContentPage>

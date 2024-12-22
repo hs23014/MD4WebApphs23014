@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="md2hs23014.SubmissionEditPage"
+             Title="Edit Submission">
+    <!-- Lapa submissions rediģēšanai -->
+    <StackLayout Padding="10">
+        <Label Text="Edit Submission" FontSize="Large" HorizontalOptions="Center"/>
+        <Picker Title="Student" x:Name="StudentPicker" ItemsSource="{Binding Students}" ItemDisplayBinding="{Binding Surname}"/>
+        <DatePicker x:Name="SubmissionTimePicker" Date="{Binding SubmissionTime}"/>
+        <Entry x:Name="ScoreEntry" Placeholder="Score" Keyboard="Numeric" Text="{Binding Score}"/>
+        <Label Text="Course:" FontAttributes="Bold"/>
+        <Label Text="{Binding Assignment.Course.Name}"/>
+        <Label Text="Teacher:" FontAttributes="Bold"/>
+        <Label Text="{Binding Assignment.Course.Teacher.Surname}"/>
+        <Button Text="Save Changes" Clicked="OnSaveChangesClicked"/>
+    </StackLayout>
+</ContentPage>

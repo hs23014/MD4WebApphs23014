@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="md2hs23014.NewSubmissionPage"
+             Title="Add New Submission">
+    <!-- Lapa jauna submission izveidei -->
+    <StackLayout Padding="20">
+        <!--<Picker Title="Student" x:Name="StudentPicker" ItemsSource="{Binding Students}" ItemDisplayBinding="{Binding FullName}"/>-->
+        <!--<Picker Title="Student" x:Name="StudentPicker" ItemsSource="{Binding Students}">
+            <Picker.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding Name, StringFormat='{0} {1}', StringFormatArgs={Binding Surname}}"/>
+                </DataTemplate>
+            </Picker.ItemTemplate>
+        </Picker>-->
+        <Picker Title="Student" x:Name="StudentPicker" ItemsSource="{Binding Students}" ItemDisplayBinding="{Binding Surname}"/>
+        <Picker Title="Assignment" x:Name="AssignmentPicker" ItemsSource="{Binding Assignments}" ItemDisplayBinding="{Binding Description}"/>
+        <DatePicker x:Name="SubmissionTimePicker"/>
+        <Entry Placeholder="Score" x:Name="ScoreEntry" Keyboard="Numeric"/>
+        <Button Text="Add Submission" Clicked="OnAddSubmissionClicked"/>
+    </StackLayout>
+    
+</ContentPage>
